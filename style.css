@@ -1,11 +1,26 @@
 h1 {
     text-align: center;
+    color: #00A9FF
 }
 
 body {
-    background-color: lightgreen;
+    background-color: #CDF5FD;
 }
 
 footer > p {
     text-align: right;
+}
+
+h2, h3 {
+    color: #00A9FF;
+}
+
+img {
+    height: 200px;
+}
+
+@media (min-width:600px){
+    .right {
+    float: right;   
+    }
 }
